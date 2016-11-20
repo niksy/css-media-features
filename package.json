@@ -1,0 +1,37 @@
+{
+  "name": "css-media-features",
+  "version": "0.0.0",
+  "description": "List of CSS media features specified by the W3C.",
+  "main": "index.js",
+  "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint '{index,test/**/*}.js' && nyc mocha 'test/**/*.js' && nyc check-coverage"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-niksy": "^3.0.1",
+    "mocha": "^3.1.2",
+    "nyc": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "css",
+    "features",
+    "media",
+    "w3c"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksy/css-media-features.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niksy/css-media-features/issues"
+  },
+  "homepage": "https://github.com/niksy/css-media-features#readme"
+}
